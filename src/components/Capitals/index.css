@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border-radius: 14px;
+  background-color: #f8fafc;
+  min-height: 360px;
+  max-height: 400px;
+  min-width: 600px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 70px;
+}
+
+.title {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.select-main-container {
+  display: flex;
+  outline: none;
+}
+
+.select-container {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px #cdb2d9 solid;
+  width: 240px;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.description {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  align-self: center;
+  padding-left: 8px;
+}
+
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+}
